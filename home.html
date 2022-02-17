@@ -63,12 +63,12 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col md-4">
+          <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-9 md-4">
+          <div class="col-md">
             <p>A communication science student at Pasundan University who wants to find experience and relations. Have organizational experience and volunteer campaigns. Hardworking, creative, and able to work in teams.</p>
           </div>
         </div>
@@ -92,19 +92,50 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="education/unpas.jpg" class="card-img-top" alt="educationunpas" />
-              <div class="card-body">
-                <p class="card-text">Pasundan University, Bachelor Degree in Communication Science.</p>
+          <!-- education1 -->
+          <div class="col-md-4">
+            <div class="row mb-3">
+              <div class="col-5">
+                <div class="card">
+                  <img src="education/unpas.jpg" alt="unpas" />
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="card">
+                  <div class="card-body">Pasundan University | Bachelor Degree in Communication Science.</div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="education/sman 15.jpg" class="card-img-top" alt="educationsman15" />
-              <div class="card-body">
-                <p class="card-text">SMAN 15 Bandung.</p>
+
+          <!-- education2 -->
+          <div class="col-md-4">
+            <div class="row mb-3">
+              <div class="col-5">
+                <div class="card">
+                  <img src="education/sman 15.jpg" alt="sman15" />
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="card">
+                  <div class="card-body">SMAN l5 Bandung | High School Diploma.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- education3 -->
+          <div class="col-md-4">
+            <div class="row mb-3">
+              <div class="col-5">
+                <div class="card">
+                  <img src="education/smpn 5.jpg" alt="smpn5" />
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="card">
+                  <div class="card-body">SMPN 5 Bandung | Junior High School Diploma.</div>
+                </div>
               </div>
             </div>
           </div>
@@ -129,19 +160,61 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
+          <!-- experiece1 -->
+          <div class="col-md-3">
             <div class="card">
-              <img src="experience/himakom.jpg" class="card-img-top" alt="experiencehimakom" />
+              <img src="experience/himakom.png" class="card-img-top" alt="himakom" />
               <div class="card-body">
-                <p class="card-text">Student Association of Communication Science | Member of Public Relation Division.</p>
+                <p class="card-text">Student Association of Communication Sciences | Member of Public Relations Division.</p>
+
+                <!-- modal button1 -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#himakom">Details</button>
+                <!-- modal1 -->
+                <div class="modal fade" id="himakom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">1. Was once became an admin of the instagram account of the Student Association of Communication Sciences Pasundan University.</div>
+                      <div class="modal-body">
+                        2. I was once the public relations division committee in a 'community service' event held by the Student Association of Communication Sciences of Pasundan University. My job is to be an activity documentary and
+                        become a speaker on "How to Turn Waste Into Organic Fertilizer" in Ciwidey Subdistrict.
+                      </div>
+                      <div class="modal-body">
+                        3. I was a documentation committee at the 'company visit' event held by the Student Association of Communication Science of Pasundan University at several companies in Jakarta. My job as an activity documentary.
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+
+          <!-- experience2 -->
+          <div class="col-md-3">
             <div class="card">
-              <img src="experience/hayvee.jpg" class="card-img-top" alt="experiencehayvee" />
+              <img src="experience/hayvee.png" class="card-img-top" alt="hayvee" />
               <div class="card-body">
                 <p class="card-text">Hayvee | Campaign Volunteer.</p>
+
+                <!-- modal button2 -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hayvee">Details</button>
+                <!-- modal2-->
+                <div class="modal fade" id="hayvee" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        1. I became a campaigner in "Berjuang Bersama Melawan Stigma hayCampaign" hosted by Hayvee. My job is to provide education about the dangers of the HIV virus to people and also remove the negative stigma to people
+                        with HIV disease.
+                      </div>
+                      <div class="modal-body">2. Became a place to vent for people who were bullied for having HIV.</div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -196,7 +269,7 @@
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="bg-primary text-white pb-3">
+    <footer class="bg-primary text-white pb-3 text-center">
       <p>Created by <a href="https://www.instagram.com/arispm_/" class="text-white">Aris Putra M.</a></p>
     </footer>
     <!-- Akhir Footer -->
